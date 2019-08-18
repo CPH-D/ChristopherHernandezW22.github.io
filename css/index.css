@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Raleway';
+}
+body {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Raleway';
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.navBar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.navBar nav {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.4rem;
+  height: 80px;
+  align-items: center;
+  font-size: 2.4rem;
+  background-color: navy;
+}
+.navBar nav a {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: navy;
+}
+footer p {
+  font-family: 'Russo One', sans-serif;
+  color: white;
+}
+section {
+  height: 400px;
+}
+.video-container .overlay {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+.video-container .overlay video {
+  position: absolute;
+  width: 100%;
+  height: auto !important;
+  background-size: cover;
+}
+.video-container .intro {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.video-container .intro h1 {
+  margin: 10% 15%;
+}
+.video-container .intro p {
+  margin: 10% 15%;
+  font-size: 2.4rem;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15% 15%;
+}
