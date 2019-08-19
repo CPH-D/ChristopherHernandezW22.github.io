@@ -56,6 +56,8 @@ footer {
   border: 1px solid black;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   margin-top: 100%;
   background-color: navy;
@@ -65,7 +67,7 @@ footer p {
   color: white;
 }
 section {
-  height: 400px;
+  height: 100px;
 }
 .video-container .overlay {
   z-index: -1;
@@ -76,9 +78,10 @@ section {
 .video-container .overlay video {
   position: absolute;
   width: 100%;
+  object-fit: cover;
 }
 .video-container .intro {
-  border: 1px solid white;
+  border: 1px solid red;
   display: flex;
   justify-content: center;
   flex-direction: column;
